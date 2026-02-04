@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Project</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+
+  <div class="container">
+    <h2>Nala soo Xiriir</h2>
+    <form id="contactForm">
+      <label>Full Name</label>
+      <input type="text" id="name" placeholder="Geli magacaaga" required>
+      
+      <label>Email Address</label>
+      <input type="email" id="email" placeholder="Geli email-kaaga" required>
+      
+      <label>Message</label>
+      <textarea id="message" rows="4" style="width: 100%; border-radius: 5px; border: 1px solid #ccc; margin-top: 5px;" placeholder="Fadlan noogu reeb farriintaadda"></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+    <div id="contact-result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
